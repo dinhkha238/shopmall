@@ -1,0 +1,48 @@
+.search{
+    
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    border-bottom:1px solid #ccc ;
+    // position: fixed;
+}
+.direction-navbar{
+    display: flex;
+}
+.logo-navbar{
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.products{
+    padding: 14px;
+    cursor: pointer;
+}
+.search-input{
+    width: 100px;
+    height: 50%;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 1px;
+    border:1px solid #ccc ;
+}
+.search-button{
+    width: 50px;
+    height: 50%;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 1px;
+
+
+}
+.productList{
+    display: flex;
+}

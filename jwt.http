@@ -1,0 +1,25 @@
+GET http://localhost:3000/api/login
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYSIsInBhc3N3b3JkIjoiYSIsImlhdCI6MTY2MjQzMzA3MX0.JJilMuj7qPQYl7bS9upAe_TTaOy3vG8rq_N5v73qxyc
+
+###
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "name": "kha",
+    "password":"abc"
+}
+### 
+POST http://localhost:5000/refreshToken
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2hhIiwicGFzc3dvcmQiOiJhYmMiLCJpYXQiOjE2NjI0MzI1MjR9.afwW7554EB-UVvHwd0GoAFuuVqMYIcxFTA398ISMazE"
+}
+### 
+POST http://localhost:5000/logout
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2hhIiwicGFzc3dvcmQiOiJhYmMiLCJpYXQiOjE2NjI0MzI1MjR9.afwW7554EB-UVvHwd0GoAFuuVqMYIcxFTA398ISMazE"
+}

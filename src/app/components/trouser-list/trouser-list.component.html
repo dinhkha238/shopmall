@@ -1,0 +1,16 @@
+
+<div class="items">
+    
+    <div class="items card" style="width: 18rem;" *ngFor="let item of itemList">
+        <div class="item">
+            <div class="image-item">
+                <img class="card-img-top" src="{{item.image}}" alt="Card image cap" loading = "lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{item.price}}</h5>
+              <p class="card-text">{{item.name}}</p>
+              <div (click)="onSee(item.price)" class="btn btn-primary">See</div>
+            </div>
+        </div> 
+      </div>
+</div>

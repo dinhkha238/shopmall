@@ -1,0 +1,60 @@
+<!-- <div class="modal"> -->
+		<!-- <div class="modal_overlay">
+		</div> -->
+		<!-- <div class="modal_body"> -->
+			<div class="modal_inner">
+				<div class="modal__head">
+					<p class="modal__head__logIN">Đăng Nhập</p>
+					<!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAASR0lEQVR4nOzde5AVVX4H8N/pvn1fwwCCiK8ML10UKFyeEcQFpcBI7arRzeZBYrJZNylSwVRqk6qk8k/yR1KVP5L9IxCzktSaNWiKKMGwxLDiBiEmKpgsitmwD3wgj3UEHMaZO/f246S6+87A3L4zt6fnnO47/L6foixh7j3dd25/7+n+3dPn5KSUBMCVkfUOAGQJAQDWEABgDQEA1nINfxdCZLQnvjhX5NE9jD4r2WOS7U8c7bY/Udn+NtLU8CrQAwBrCACwhgAAawgAsIYAAGuNVaCobCsPceonUclqLHG2Hkd068nqVHGo2sNkj1Elw2MMPQCwhgAAawgAsIYAAGsIALDWugoUpa/ykGzryVpWVSmKirOHaY4F0leD0ie1Yww9ALCGAABrCACwhgAAawgAsJakCtRuklVdolTdj6ZqD7OtCyXbVvvXlxqgBwDWEABgDQEA1hAAYA0BANbavQqUrF7R/nPs6LtDTdXr0jdWqq2gBwDWEABgDQEA1hAAYA0BANaSVIHafHTHhJhlOs2tqxq/FKXvSEjtGEMPAKwhAMAaAgCsIQDAGgIArLWuAmU7AiTNSkialZn2124VJ03QAwBrCACwhgAAawgAsIYAAGuNVaD2H+cTh74VuNJcyUvf/iSjapbptjrG0AMAawgAsIYAAGsIALCGAABrjVWgNOsM2a72pepOrjjPSrb1ZPStra9qRus4W4/S1DJ6AGANAQDWEABgDQEA1hAAYE00XCbrm+Um1t5MwHup9M1BlGzr2dZh9N0fp2k0F3oAYA0BANYQAGANAQDWEABgrbEKlLCVTGtHyWQ7Z7KqOYji0Fdb0zdXdpxnKYEeAFhDAIA1BABYQwCANQQAWEtyR1iad3JlO9ImStX+JKNvHp40a2LJ3i9Nv1X0AMAaAgCsIQDAGgIArCEAwJqu2aGzrcwka1nfiJSJWL2JI9vqlpKW0QMAawgAsIYAAGsIALCGAABrrVeKj1J1hZ7m/U3Z3qWl7043VbM6x6HvN69qWwmgBwDWEABgDQEA1hAAYA0BANaSVIHSHH+ib12qbFeTT3OuHlVbT9Zymr/nBNtCDwCsIQDAGgIArCEAwBoCAKy1XiOs/VehStZOspZV0TcDkj5pzgKU2v2D6AGANQQAWEMAgDUEAFhDAIA1NWuENWm3zWZsnoiu1lX79c0KHmdbDZIMhoN0tHzzuru709qXqxZ6gKsNeoAxtYMeIDtSUvj2CEFJv7lL7ebxqxUCkAXP8/9rGJeP+6F/GQsc/eOHAKQr/MgfPNBlX69/HHdMqv/LUIcAaWmvsUBxZDu2ZFyvQsrw4Ha7z9VeO+yceEd2f+jvyPTrc/MX5letNa+74cqHqZLmbyPbO92iWr529ABpqR/WcuDAvoFtv++98H9X/tAmqj54W3HLnxc3fp6EoTwDMBL0AGOT8FWEB7T0+p/+xsBXfkvcRub6zdY9nze75hIJ94OT9sG97ss75dtU/OZflR/dQoapMAPoAUZrRw7XdMMtHxNHtJ1kku1hxq/C86SUlRd3nye6eI/Z99R2r7dn2M97e/q+9cSFewvniSr7nht6ihJp/jaStZNsW0peOwKg/1W4rpTSfv/kxfV0YSn1/f1fh//sOY4M/vj/E+jbuePCCrq4juz3fjz0xPFL87eRrJ1k21Ly2jEWSLf6mUz1wF7vZcqt//XSzz3q/6ttC9Ok4I8wTenYRFR6eHPu3se8g1R9aS+F5SB8x6dZ6wCICFVZjLas7zGqjLlx1yMhvAvdzuF9lKf8F35JlDqk4wjLGtZszpKOLYol/wFFcg5/2zvf7Qcg/H5gLLun7zcWfU9VtZP4pbXUsln0AHqF76179rR3/DvGpoXW/AX+e2k0OygNk4is2xaKB1Z6xw64p08NPR30QQAUGeFjzD/PIXLPnZZHyVy0zggr/cGx3ij4LsyYfp05/6flMXI/OjP0dNAH3wOoEJQsvU8uVP/938iT/qEsPSLhf4JLIsty3vwPcSd5589W/vmZ4FNdBj9tbCU46Sfvow/FKrIPvyT7+8m2gwcGTQnDPyMSVFh3nzHtWnxXoETr7wGiOK8l3PzlS4+EYX//nUsLFhk3EH1K1Du0meBAvZvEjOXUd1buPz1is4OZEPfdTB3Xy+6j8nD41dngIzqIppF3ijrf/l5+0R1NA6D1+mcifnvQcuvoAZQI3j/LMtcRdd1P0iHXrR/OMnh3B3qp1kulGWLz/HomwgM+fOP97sL/S/1477tAdp+4bqXY3Bkc5fV2/BMnM2e896IoFjN9sVeV1gFIcx6ebMeyj/OTSRgke0n0nCXhkVOrn7fUz15M/4/nUM9Z/6+mRVaZXIfsfv9pVtk/a3IqwbOIjJz/4FofVS8NayRXIE+KARKjDhpN8zvvZNtS1fMrORNBD6COaYrJwce5aZHhNjvLDz7FrZL85D16q5tmkphJ5JA8TXSeaCGJGUv9p3t2vXMQV747QWycCk21RA7vmjL4VSojchZNvkXWKsIqNL/KFYLMgjx5xFyxKf+1r+RuvV1MmUqO6/VccN/9Ue2Vf3X/5e/oOhLTlpBba3y+DC7Y3Kooz6McSkPKIABKBMe7ZYnOG+W5E2RMa1bnCY7+D47mt/xFefNviPIk/2m9PWSa5g03W7ctLt7/sP3o1srT2903XxAdN/rnSw2EQU6/KM8WZu7yRmF8EABl/DOT8lSyf0JibpMf5/Ly1FHri3/Q8dXfJRLVwy/VXtzl/fBVKk8z5iw1Fy0vrFlvLbjDXrzC3bODFnRFAhBUV+2PqbSEwlMgHP8qIAAqhMdizhKlTvJPXpqdorgueVR8aDORGHhxd2XTI7SSxIyFsueU986r9p+Q/fMrcmsftg/tFbNnBadAEcKgak2Up5CVT+E1MdE6AMlWHk9WDUi29TRrPqNUHvxrgOIkqgZHagPDlH1njYX3ml1zZKWv9u2n6XN5Y94G+ckZUZxJ02eJ2wte9w9rX/9D8ZlbqTCVpBP5eA9KSVWicqe/obFo/1khkj1LyZ0h6AHUMU1RKJJNw7++GuQ5ZFr18W2SSNbkQC85A0QGVT8lkqJzJi2bRQOXyLWbf8UrBNVIFEpk4l1TBmOB1DFMyhf8AETPzT1XdNwkT+x3z5wS5Un5h36VDpP86ARZk8gqUb6DzDxVe6nvvJ+TET96hd94vkgYIKQOAqCMMAyRz1P05CWUy8sqDez9RyIqbnyo/Op3jTlL5fePyB8dlT3vUq5IxSnNu44rOSSKhfpgUlwBq4DOVAUx+N+cRbJes298jFsVXcvsp/64f/rM0pd+rbD6nsLKu2rH3rRff8U59Lx35A36KRLXr6GBnmDEW5MvEfx2PRKljsGfIgEKIABKhB/Jwu8BRvoEl5I8W8xdUf3TLe6JtwoPbLYWfTa/bFV+2SrvFx6rvvZKbc83vdf2ifmryO4jGfkiObw7zA9AuclFNiTVGIC2WsW7DYU3xI30MyqWyAvvDWj28ey5JCvijjXOS084zzxh3v9Ibu0XrMXLrfkLS5seKaxeV/mnp2rbf0/MXUaejNxgEDTokb+JkTWdLDHNupm+ilOybWFu0DQJ0dFJbliybP5z/0f9F8XsNdTluf/9vLvv+VoXmasfK3zxy/llqzu++jWRL1S/vlXMW05OJTIaQpJLYtQAwFihM1VJlCf5F8H1u2GaP8SPQX8w4LnrLrHyLpqyyDn0t30b7qrs2UlEpS992Vy5Sfa8R8bwYn8wrZDfeKlMuFdSHQRAkaCr9U/QnZHmNpRBnbSDjKDX9Rzqv0gDlyiXF7PWitULBv7ol+0fvCNKHbm1D9DJj8kqhvcJDAp6D5tEaVK9NdwOpgICoMJQ+bLUQfYI1wDCJKcm33/d/52XpwUXspKkQ3aFLp0R13ZRH7nv/sB/4DXX0jmqP+CK5/vNGiTywd0wE/DyqT3hGkCR8AYvK09meK0aLYPaJAdyP7PFefkJ/4N87t1k5ur3gllF2fMxfULmTbP9J595n2YFXcSVjYjgzKqDyMQHv0pJxgLF0W4zeKpab6sFQ/jHaHgf41Bj0qNCp3zr9eKffav0yK8MrH+w9g9/6R78DtWIpvhhkVWiS1TY/jfWoiWyr9c59ILouomc6vByZzCGopxknog0az6qajWp1RXRA6gkDINK4WoXV743wfXrNSQvXZROrbj2vsKyVbXvHXH+95h37gPKWcbMm6yld+aX3ElElRee9Y4dErcsD4YJDQnO+D1HdJKw8JaphN+mUjnTD4D0Bq8K6l+QUa1f3Lisuu13nONvFDf/dn7JysKa9YU16698qhyoVPY8U93+m2LuEnKrjS0Lw79amDx4DQCKIAAqCTMnSsEXXg33rQsRDIX4rPvGzr7v7hxY+4u51RvNufPNyZPJNL3eXvfHJ2ovP+/95x4xZ0lwVjS8D/GjZEinIjpuoTxuBlAJAVAql/N7ANcms9jkOlh6YuYKml5z/+dZd++zdJpoNlGZ6MNgzp85HWLecvLsxsvf8ArY7wF6xDW3i0IhzRd01UMA1AhPd0SxRJMXke2EI3+CKvPwyzK3RsIQ1yymay1aYpLr+B/2cyz/U9+tBaOABidBuUwEQ4OkMCzKTyIrCADKoIokmRdI1Zwt+mo1yWoI46lKhf9qzphp3LzAPbLLWPSgrPSMNmAznBurPjHWFZNkjUCUOr3jb5h33mpMmUo04kJ6ow1VGlW2azZnODYpye9L36RF+oqVCp/V/KUNLvBY/a9X+n92nfwJiXlEkYkdhrc1+EE/+l0Awu9I5Eky7qaObxyzbl9MnjfSgqoKA5DmcEZVRxQCkMazRnxpgyMg7LffrL12WPb3KztREYaYMrXwufW5uZ+pz62rvwdAAMawmSiOAaDho4DqE4COmwy+XyPRZBMRCMBYn4WLYKWGFjUS4Tm9ihProTaGWm6m6Z0A0BIGw43Z+fPnR/toCQ/9YPlBxX/EiBfK4dHf3d2t95VfjZKsEaZq29GWk60eFZVgtcCY65oR0cGDB4moVqu1joHaPyNzHGdox+LQt0ZYnJazfd8boAcYsx07dgSTAJmu67bDWYfneW7gySefzHpfJh4EYMz279+/bdu2XDBBZ7UaGbSTLtu2a7VasVg8fvz4gQMHst2ZiQgXwUls3brV87zHH3/czHqOKitw/Pjx3bt3Z7snE1Wy8+DxN6t1zfc4W08mPPkJt7Jhw4Zdu3bp21Yczz333MaNG8P9MYJvx+I8S987OOHe09ZlY30L7Oi7aUbfhCv6JgJJsx19dfc47bTVe6rmFEjf4a5Pu61wqOr3o29/4phwK4vhIhhYQwCANQQAWEMAgDUEAFhTUwVSVYzLtnyZ7apYKc1cNI6W0yxtJ5OgHfQAwBoCAKwhAMAaAgCsIQDAWsJ7qBtbyXTNqTRv1p6IQ9/0tayv5pPaEYUeAFhDAIA1BABYQwCANQQAWGusAqV5zR6V7bSHcehrWdW20hzRlO1ormRQBQK4DAEA1hAAYA0BANYQAGBN17xA+qoladZY4mxd1Ur6cbYVpx19Y3iyXf1fE/QAwBoCAKwhAMAaAgCsIQDAWusqULI6Q5p3cmU7EinO/mQ77qj9J7iP07Im6AGANQQAWEMAgDUEAFhDAIC1JHeEZXu/laptxdl6tq8izbE3+u7kikpz/FIU7ggDuAwBANYQAGANAQDWEABgTc0dYXFku6x+trMfZ7v6WLJnpfm69B0bLaEHANYQAGANAQDWEABgDQEA1tSsEaZPtiuht9vaZ6q2lW3dLI7U5p1GDwCsIQDAGgIArCEAwBoCAKw1jgXKdube6JV+mnP1ZLseWZqrwMehb0WwNGtiLaEHANYQAGANAQDWEABgDQEA1lrfEdb+a3/HkeZYoGT1iok450+a8zhpqqShBwDWEABgDQEA1hAAYA0BANaSzAuU7RzOad7flEyyWo2qx8Shr06VbFv6tHzf0QMAawgAsIYAAGsIALCGAABr6c0OnaY057RJcy7oOFtXJc1RRvpqdBgLBDAaBABYQwCANQQAWEMAgLWJVwXSNw9Ptvuj6lnZrlOvSmrju9ADAGsIALCGAABrCACwhgAAa0mqQNkuK9Zud3Lp23pUnLqHqmqJqsqVqnFZmmYFRw8ArCEAwBoCAKwhAMAaAgCsta4Ctdu8LlHJKg9prvYV5zHtNn91lL66kD64IwxgNAgAsIYAAGsIALCGAABrItuBPQDZQg8ArCEAwBoCAKwhAMDa/wcAAP//J5dLvnsajpMAAAAASUVORK5CYII=" alt="" class="modal__head__img"> -->
+				</div>
+				<form class="modal__form" (submit)="onLogIn()">
+					<input placeholder="Tên Đăng Nhập" type="text" [(ngModel)] = "loginUserData.name" name="name"  class="modal__form__user modal__form__set">
+					<input placeholder="Mật Khẩu" type="text" [(ngModel)] = "loginUserData.password" name="password" class="modal__form__pass modal__form__set">
+						<i class="modal__form__icon fa-solid fa-eye-slash"></i>
+					<button class="modal__form__button modal__form__set" >Đăng nhập</button>
+				</form>
+				<div class="modal__forget">
+					<a href="" class="modal__forget__1 ">Quên mật khẩu</a>
+					<a href="" class="modal__forget__1">Đăng nhập với SMS</a>
+				</div>
+				<div class="modal__or">
+					<div class="modal__or__boder"></div>
+					<div class="modal__or__title">HOẶC</div>
+					<div class="modal__or__boder"></div>
+				</div>
+				<div class="modal_social">
+					<button class="modal_social__logIn ">
+						<div class="modal_social__icon ">
+							<i class="fa-brands fa-facebook "></i>
+							
+						</div>
+						<div class="modal_social__name " >
+							Facebook
+						</div>
+					</button>
+					<a href="" class="modal_social__logIn">
+						<div class="modal_social__icon">
+							<i class="fa-brands fa-google"></i>
+						</div>
+						<div class="modal_social__name">
+							Google
+						</div>
+					</a>
+					<a href="" class="modal_social__logIn">
+						<div class="modal_social__icon">
+							<i class="fa-brands fa-apple"></i>
+						</div>
+						<div class="modal_social__name">
+							Apple
+						</div>
+					</a>
+				</div>
+				<div class="modal__dki">
+					<p>Bạn mới biết đến ShopMall? 
+					<a href="" class="modal__dki__form">Đăng ký</a>
+					</p>
+				</div>
+			</div>
+			<!-- <button (click)="submitLogin()">Đăng nhập bằng FB</button> -->
+		<!-- </div> -->
+	<!-- </div> -->
